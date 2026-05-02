@@ -14,8 +14,6 @@
       --light: #f7fbfb;
     }
 
-    * { box-sizing: border-box; }
-
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
@@ -25,7 +23,7 @@
 
     header {
       background: var(--white);
-      padding: 25px 15px;
+      padding: 25px;
       text-align: center;
       border-bottom: 4px solid var(--mint);
     }
@@ -44,11 +42,6 @@
       color: white;
       text-decoration: none;
       font-weight: bold;
-    }
-
-    .hero {
-      text-align: center;
-      padding: 50px 20px;
     }
 
     .section {
@@ -81,22 +74,15 @@
       margin: 0;
     }
 
-    .highlight {
-      background: var(--mint);
-      color: white;
-      text-align: center;
-      padding: 40px 20px;
-    }
-
     .contact {
       background: white;
-      padding: 40px 20px;
+      padding: 40px;
       text-align: center;
     }
 
     form {
       max-width: 500px;
-      margin: 20px auto;
+      margin: auto;
       display: flex;
       flex-direction: column;
       gap: 12px;
@@ -114,17 +100,8 @@
       border: none;
       padding: 12px;
       border-radius: 8px;
-      cursor: pointer;
     }
 
-    footer {
-      text-align: center;
-      padding: 15px;
-      background: var(--black);
-      color: white;
-    }
-
-    /* WhatsApp Button */
     .whatsapp {
       position: fixed;
       bottom: 20px;
@@ -135,14 +112,14 @@
       border-radius: 50px;
       text-decoration: none;
       font-weight: bold;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
+
   </style>
 </head>
 <body>
 
 <header>
-  <img src="logo.png" alt="MediRehab Logo">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAYAAABxHq8EAAAACXBIWXMAAAsTAAALEwEAmpwYAA..." alt="MediRehab Logo">
   <h1>MediRehab</h1>
   <p>Hear. Speak. Thrive</p>
 </header>
@@ -153,37 +130,32 @@
   <a href="#contact">Book</a>
 </nav>
 
-<section class="hero">
-  <h2>Helping You or Your Child Communicate, Swallow & Thrive</h2>
-  <p>Professional Speech & Hearing Therapy Services in Windhoek, Namibia.</p>
-</section>
-
 <section id="paediatrics" class="section">
   <h2>Paediatric Therapy</h2>
   <div class="grid">
 
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1588776814546-ec7e9a88b84f">
+      <img src="https://images.unsplash.com/photo-1604881991720-f91add269bed">
       <h3>Speech & Language Delays</h3>
-      <p>Helping children develop communication skills.</p>
+      <p>Child-focused communication development.</p>
     </div>
 
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Autism_spectrum_infinity_awareness_symbol.svg/512px-Autism_spectrum_infinity_awareness_symbol.svg.png">
       <h3>Autism Support</h3>
-      <p>Therapy for sensory and communication needs.</p>
+      <p>Supportive, neurodiversity-affirming therapy.</p>
     </div>
 
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b">
+      <img src="https://images.unsplash.com/photo-1543353071-873f17a7a088">
       <h3>Feeding & Oral Motor</h3>
-      <p>Improving feeding and swallowing.</p>
+      <p>Feeding, textures and oral development.</p>
     </div>
 
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348">
+      <img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1">
       <h3>Play-Based Therapy</h3>
-      <p>Fun, engaging developmental therapy.</p>
+      <p>Learning through play and interaction.</p>
     </div>
 
   </div>
@@ -194,9 +166,9 @@
   <div class="grid">
 
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1580281657527-47e8c6c5b7a2">
+      <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d">
       <h3>Stroke Rehabilitation</h3>
-      <p>Speech and communication recovery.</p>
+      <p>Recovery of speech and function.</p>
     </div>
 
     <div class="card">
@@ -206,29 +178,23 @@
     </div>
 
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef">
+      <img src="https://images.unsplash.com/photo-1588776814546-ec7e9a88b84f">
       <h3>Voice Disorders</h3>
-      <p>Voice strength and clarity.</p>
+      <p>Improving vocal clarity.</p>
     </div>
 
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1581090700227-4c4b0c54a5b2">
+      <img src="https://images.unsplash.com/photo-1581091215367-59ab6b7d2b9b">
       <h3>Assistive Communication</h3>
-      <p>Devices for communication support.</p>
+      <p>Communication support devices.</p>
     </div>
 
   </div>
 </section>
 
-<section class="highlight">
-  <h2>Why Choose MediRehab?</h2>
-  <p>✔ Personalised care ✔ Evidence-based ✔ Compassionate ✔ Family support</p>
-</section>
-
 <section id="contact" class="contact">
   <h2>Book Your Appointment</h2>
   <p><strong>Phone:</strong> +264 81 556 5520</p>
-  <p><strong>Location:</strong> Unit 8A Demushuwa Suites, Windhoek</p>
 
   <form action="https://formspree.io/f/mrejboej" method="POST">
     <input type="text" name="name" placeholder="Full Name" required>
@@ -239,11 +205,7 @@
   </form>
 </section>
 
-<a class="whatsapp" href="https://wa.me/27762112163" target="_blank">Chat on WhatsApp</a>
-
-<footer>
-  <p>© 2026 MediRehab</p>
-</footer>
+<a class="whatsapp" href="https://wa.me/27762112163" target="_blank">WhatsApp</a>
 
 </body>
 </html>
